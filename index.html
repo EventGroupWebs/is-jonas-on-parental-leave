@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Is Jonas on parental leave?</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-color: black">
+<div class="container">
+  <h1 class="header">Is Jonas still on parental leave?</h1>
+  <div class="container">
+    <button class="button" role="button" onclick="document.getElementById('test').style.display = 'inline'">Find out</button>
+  </div>
+
+  <!-- The Modal -->
+  <div id="test" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="document.getElementById('test').style.display = 'none'">&times;</span>
+      <p>Yes</p>
+    </div>
+
+  </div>
+</div>
 
 </body>
 </html>
